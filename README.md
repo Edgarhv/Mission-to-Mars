@@ -20,3 +20,4 @@ Mars Hemispheres
 
 
 I used MongoDB with Flask templating to create a new HTML page that displays all of the information that was scraped from the URLs above. I stored the return value in Mongo as a Python Dictionary. Also, I created a root route / that will query the Mongo database and pass the Mars Data into an HTML template to display the data. Finally, I created a template HTML file called index.html that will take the Mars Data Dictionary and display all of the data in the appropriate HTML elements.
+![img](https://github.com/Edgarhv/Mission-to-Mars/blob/b43ac1c8db35367dcef58559f21dc3e625d0a761/html%20PAGE.png)
