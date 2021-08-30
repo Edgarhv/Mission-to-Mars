@@ -17,3 +17,6 @@ Mars Hemispheres
 
 -I add the dictionary with the image URL string and the hemisphere title to a list. As result, this list contains one dictionary for each hemisphere
 ![img](https://github.com/Edgarhv/Mission-to-Mars/blob/d3ef969593e75456956aa28d90ec3273d1bc11ff/Mars%20Hemisphere%20Images.png)
+
+
+I used MongoDB with Flask templating to create a new HTML page that displays all of the information that was scraped from the URLs above. I stored the return value in Mongo as a Python Dictionary. Also, I created a root route / that will query the Mongo database and pass the Mars Data into an HTML template to display the data. Finally, I created a template HTML file called index.html that will take the Mars Data Dictionary and display all of the data in the appropriate HTML elements.
