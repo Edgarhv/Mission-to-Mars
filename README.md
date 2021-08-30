@@ -10,7 +10,10 @@ Robin wants to have a website with the latest information about Mars. For this r
 ## Results
 
 Mars Hemispheres
+
 -I visited the Mars hemispheres site to obtain high-resolution images for each hemisphere.
+
 -Save both the image URL string for the full resolution hemisphere image and the Hemisphere title containing the hemisphere name.
--I add the dictionary with the image URL string and the hemisphere title to a list . As result, this list contains one dictionary for each hemisphere
+
+-I add the dictionary with the image URL string and the hemisphere title to a list. As result, this list contains one dictionary for each hemisphere
 ![img](https://github.com/Edgarhv/Mission-to-Mars/blob/d3ef969593e75456956aa28d90ec3273d1bc11ff/Mars%20Hemisphere%20Images.png)
